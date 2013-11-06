@@ -1,0 +1,39 @@
+
+				Convert To LF Readme
+				--------------------
+
+What is it?
+----------
+	
+	ConvertToLF is a filter that removes the carriage returns used in the
+	end of file markers on some operating systems. BeOS uses just a line
+	feed to mark the end of line, and gcc, the BeOS compiler and StyledEdit
+	don't function properly with carriage returns in source code / text files.
+
+Installation
+------------
+
+	To install this tracker add on you need to put a copy or link in the 
+	"home/config/add-ons/Tracker" directory. I've included a shortcut in
+	the distribution to make this easy... just drop a copy into the shortcut
+	labelled: "Drop in here to install".
+
+Usage
+-----
+
+	To use on a text file, select that file in the tracker, right click, go
+	to the menu that says "Add-Ons" and select "ConvertToLF". The add-on will
+	then remove all the "CR" chars in the file and return without putting up
+	any user interface.
+	
+	Be warned that running "ConvertToLF" on a file that isn't text will destroy
+	it, especially executable code. So be careful ok, don't come complaining
+	to me that it screwed up some file. Thats your responsibility to use it
+	correctly.
+
+Author
+------
+
+	fReT
+	http://www.ozemail.com.au/~fret
+	fret@ozemail.com.au
