@@ -1,7 +1,7 @@
+#include <add-ons/tracker/TrackerAddOn.h> 
 #include <Application.h> 
 #include <InterfaceKit.h> 
 #include <StorageKit.h> 
-#include <be/add-ons/tracker/TrackerAddon.h> 
 
 #include <stdio.h> 
 #include <string.h> 
